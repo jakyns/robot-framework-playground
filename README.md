@@ -3,7 +3,7 @@
 
 ## Dependencies
 
-- Python 3.7.x or higher
+- Python 3.7.3
 - [Pipfile](https://github.com/pypa/pipfile)
 - [geckodriver](https://github.com/mozilla/geckodriver) or
   [chromedriver](https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver)
@@ -27,5 +27,5 @@ pipenv install && pipenv shell
 
 
 ```sh
-robot tests/*
+./robot.sh
 ```
